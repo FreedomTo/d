@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('verify file') {
       steps {
-        fileExists 'a.c'
+        fileExists 'a.cc'
       }
     }
   }
